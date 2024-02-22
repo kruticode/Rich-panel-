@@ -1,0 +1,64 @@
+/* styles.css */
+.screen {
+    display: none;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.conversations {
+    float: left;
+    width: 30%;
+}
+
+.conversation-details {
+    float: left;
+    width: 70%;
+}
+
+#conversation-messages {
+    list-style: none;
+    padding: 0;
+}
+
+#conversation-messages li {
+    margin-bottom: 10px;
+}
+
+#reply-text {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#conversation-list {
+    list-style: none;
+    padding: 0;
+}
+
+#conversation-list li {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.customer-profile {
+    border: 1px solid #ccc;
+    padding: 10px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent screen</title>
+    <link rel="stylesheet"  href="styles.css">
+</head>
+<body>
+     <!-- Agent Screen -->
+     <div id="agent-screen" class="screen hidden">
+        <div class="conversations">
+            <h2>Conversations</h2>
+            <ul id="conversation-list">
+                <!-- Conversation list will be populated dynamically -->
+            </ul>
+        </div>
+        <div class="conversation-details">
+            <div class="conversation-thread">
+                <h3>Conversation Thread</h3>
+                <ul id="conversation-messages">
+                    <!-- Conversation messages will be populated dynamically -->
+                </ul>
+                <textarea id="reply-text" placeholder="Type your reply here..."></textarea>
+                <button onclick="sendReply()">Send</button>
+            </div>
+            <div class="customer-profile">
+                <h3>Customer Profile</h3>
+                <!-- Customer profile details will be displayed dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
